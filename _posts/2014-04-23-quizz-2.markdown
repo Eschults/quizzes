@@ -1,0 +1,161 @@
+---
+layout: post
+title:  "Quizz #2"
+---
+
+<div class="question">
+  Décrire précisément ce qui se passe à chaque ligne.
+</div>
+
+```ruby
+first_name = ["Pierre", "Paul", "Jacques"].sample
+last_name = "Paillard"
+puts "Great! #{first_name} #{last_name} is born"
+```
+<div class="answer">
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+</div>
+
+<div class="question">
+  Qu'est-ce qu'un constructeur? À quoi sert-il et comment l'appelle-t-on?
+</div>
+<div class="answer">
+
+</div>
+
+<div class="question">
+  Soit le code suivant. Quelle est la différence entre <code>string</code> et <code>String</code>?
+</div>
+
+```ruby
+string = String.new("Hello World")
+```
+
+<div class="answer"></div>
+
+<div class="question">
+  Que fait la méthode suivante?
+</div>
+
+```ruby
+def mystery_method(pets)
+  mammal_pets = []
+  for pet in pets
+    mammal_pets << pet if pet.mammal?
+  end
+  return mammal_pets
+end
+```
+
+<div class="answer">
+
+</div>
+
+<div class="question">
+  Réimplémentez la méthode <code>mystery_method</code> en utilisant une des méthodes de <code>Enumerable</code>.
+</div>
+
+<div class="answer big"></div>
+
+<div style="page-break-after:always;"></div>
+
+<div class="question">
+Dans la question 3, quel peut être le type de <code>pets</code>? Écrivez une classe <code>Animal</code>
+tel qu'un tableau d'instances de <code>Animal</code> passé à <code>mystery_method</code> renvoie un
+tableau vide.
+</div>
+
+<div class="answer big">
+
+</div>
+
+<div class="question">
+  Écrivez une classe <code>Dog</code> qui hérite d'<code>Animal</code>, et qui définit
+  la méthode d'instance adéquate vis-à-vis de la question 4.
+</div>
+
+<div class="answer big">
+
+</div>
+
+<div class="question">
+  Soit la classe suivante. Comment appelle-t-on la "famille" de la méthode <code>overview</code>
+  dans la classe ci-dessous. Même question avec <code>catch_fish</code>.
+</div>
+
+```ruby
+class Fish
+  def self.overview()
+    return "Fishes can live in the sea"
+  end
+  def catch_fish
+    # Does catch stuff
+  end
+end
+```
+
+<div class="answer big"></div>
+
+<div class="question">
+  Écrivez du code qui appelle la méthode <code>overview</code> définie à la question précédente.
+  Même question avec <code>catch_fish</code>
+</div>
+
+<div class="answer">
+</div>
+
+<div style="page-break-after:always;"></div>
+
+<div class="question">
+  Let's define 2 classes, <code>Liquid</code> and <code>Alcohol</code>.
+</div>
+
+```ruby
+class Liquid
+  def drink
+    "You drank some liquid"
+  end
+  def evaporate
+    "There is no more liquid"
+  end
+end
+
+class Alcohol < Liquid
+  def drink
+    "Yo are now drunk"
+  end
+end
+```
+<p>What is printed line  and 3 of the following ruby script?</p>
+```ruby
+beer = Alcohol.new
+beer.drink
+beer.evaporate
+```
+
+<div class="answer">
+  2.<br />
+  3.
+</div>
+
+<div class="question">
+  À quoi sert <code>super</code>?
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  Qu'est-ce qu'une variable d'instance ? Donner un exemple.
+</div>
+
+<div class="answer big"></div>
+
+<div class="question">
+  À quoi sert <code>private</code> ? Quand l'utilise-t-on ? Donner un exemple.
+</div>
+
+<div class="answer big"></div>
