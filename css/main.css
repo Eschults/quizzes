@@ -187,3 +187,7 @@ body { counter-reset: question; }
 .answer.bigger {
   height: 12em;
 }
+
+.highlight pre {
+  margin-bottom: 1em;
+}
