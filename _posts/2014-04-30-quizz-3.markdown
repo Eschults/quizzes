@@ -6,142 +6,83 @@ title:  "Quizz #3"
 <div class="question">
   Qu'est ce qu'une base de données relationnelle ?
 <div>
-  
-<div class="answer big"></div>  
+
+<div class="answer big"></div>
 
 <div class="question">
-  Quels sont les différents types de relation entre tables que vs connaissez ?
+  Quels sont les différents types de relation entre tables que vous connaissez ?
 <div>
-  
+
 <div class="answer big"></div>
 
 
 <div class="question">
-  Un auteur, défini par son nom, a plusieurs livre. Un livre, défini par son titre et son année de publication, appartient à un auteur.
-  <ol>
-    <li>Quelles sont les tables de notre base de données ? Quelle est la relation entre vos tables ?</li>
-    <li>Quelles sont les clefs primaires et clefs étrangères de notre BDD ?</li>
-  </ol>
+  Un auteur, défini par son nom, a plusieurs livres. Un livre, défini par son titre et son année de publication, appartient à un auteur. Dessiner le schéma de cette base de données, avec les relations entre les tables.
 </div>
-Compléter le schéma de la BDD
-
 
 <div class="answer big">
-  <ol>
-    <li></li>
-    <li></li>
-  </ol>
+
 </div>
-
-```
-|-----           -----|
-|       - id          |
-|       - name        |
-|                     |
-|---------------------|
-
-|-----           -----|
-|       - id          |
-|       - title       |
-|       - year        |
-|                     |
-|---------------------|
-
-```
 
 
 
 <div class="question">
-  Un utilisateur, défini par son email, peut lire plusieurs livre. Un livre peut être lu par plusieurs utilisateur (on est sur du ebook). On veut aussi garder trace de la date à laquelle un lecteur lit un livre.
-  <ol>
-    <li>Quelles sont les nouvelles tables et les nouvelles relations entre tables introduites ?</li>
-  </ol>
+  Un utilisateur, défini par son email, peut lire plusieurs livre. Un livre peut être lu par plusieurs utilisateur (ebook) On veut aussi garder trace de la date à laquelle un lecteur lit un livre. Reprenez votre schéma ci-dessus et ajoutez les tables et relations supplémentaires.
 </div>
-Modifier le schéma de la BDD pour prendre en compte ces nouveautés.
+
+<div class="answer big">
+
+</div>
+
+<div class="question">
+  Quel est le langage permettant d'interroger une base de données ?
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  Quelle requête simple permet de retrouver les livres écrit avant 1985 ?
+</div>
 
 <div class="answer">
-  <ol>
-    <li></li>
-  </ol>
-</div>
 
-
-```
-  |-----           -----|
-  |       - id          |
-  |       - name        |
-  |                     |
-  |---------------------|
-
-  |-----           -----|
-  |       - id          |
-  |       - title       |
-  |       - year        |
-  |                     |
-  |---------------------|
-
-  |-----           -----|
-  |       - id          |
-  |                     |
-  |                     |
-  |                     |
-  |---------------------|
-
-  |-----           -----|
-  |       - id          |
-  |       - email       |
-  |                     |
-  |                     |
-  |---------------------|
-```
-
-<div class="question">
-  <ol>
-    <li>Quel est le langage permettant d'interroger une BDD ?</li>
-    <li>Quelle requête simple permet de retrouver les livres écrit avant 1985 ?</li>
-    <li>Quelle requête jointe permet de retrouver les 3 derniers livres que Jules Verne a écrit ?</li>
-  </ol>
-</div>
-
-<div class="answer big">
-  <ol>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ol>
-</div>
-
-
-<div style="page-break-after:always;"></div>
-
-
-<div class="question">
-  Faisons un peu d'Active Record
-  <ol>
-    <li>Qu'est ce qu'une migration ? A quoi ca sert ?</li>
-    <li>Comment exécuter une migration ?</li>
-  </ol>
-</div>
-
-<div class="answer big">
-  <ol>
-    <li></li>
-    <li></li>
-  </ol>
 </div>
 
 <div class="question">
-  Compléter les migrations pour notre BDD de e-books (a vous de nommer la dernière migration, la plus difficile !)
+  Quelle requête jointe permet de retouver les 3 derniers livres publiés de Jules Vernes
+</div>
+
+<div class="answer"></div>
+
+
+
+
+<div class="question">
+  À quoi sert ActiveRecord ?
+</div>
+
+<div class="answer">
+
+</div>
+
+<div class="question">
+  Qu'est-ce qu'une migration ? Comment l'execute-t-on ?
+</div>
+
+<div class="answer">
+
+</div>
+
+<div class="question">
+  Compléter les migrations pour notre BDD de e-books
 </div>
 
 ```ruby
 class CreateBooks < ActiveRecord::Migration
   def up
     create_table :books do |t|
-      t.string :title
-      # a vous de ouéj
-  
-  
+
+
     end
   end
 end
@@ -149,187 +90,69 @@ end
 
 ```ruby
 class CreateAuthors < ActiveRecord::Migration
-  def up
-  
-  
-  
-  
-  
-  
-  
-  
+  def change
+
+
+
   end
 end
 ```
 
 ```ruby
 class CreateUsers < ActiveRecord::Migration
-  def up
-  
-  
-  
-  
-  
-  
-  
-  
+  def change
+
+
   end
 end
 ```
-
-
-```ruby
-class                            < ActiveRecord::Migration
-  def up
-  
-  
-  
-  
-  
-
-  
-  
-  end
-end
-```
-
-<div class="question">
-  Ecrire une migration pour ajouter une colonne category (polar, scifi, etc..) a notre table de livres.
-</div>
-
-```ruby
-class                            < ActiveRecord::Migration
-  def up
-  
-  
-  
-  
-  
-
-  
-  
-  end
-end
-```
-
-
 <div style="page-break-after:always;"></div>
 
-
 <div class="question">
-  <ol>
-    <li>Sur quel convention repose le mapping entre un model Active Record et une table de la BDD?</li>
-    <li>Définisser votre modèle de livre pour qu'il soit bien mappé à votre table de livres (n'oubliez pas l'héritage Active Record)</li>
-</div>
-
-<div class="answer big">
-  <ol>
-    <li></li>
-    <li></li>
-  </ol>
-</div>
-
-
-
-<div class="question">
-    Compléter le code suivant en utilisant les bonnes méthodes Active Record.
+  Ecrire une migration pour ajouter une colonne <code>category</code> à notre table livre.
+  Est-ce la meilleure façon de procéder ?
 </div>
 
 ```ruby
-class Author < ActiveRecord::Base
-end
-  
-# Votre code ci-dessous !
-#1. Ajoutez votre auteur favori ds la base de données
+class AddCategoryToBook < ActiveRecord::Migration
+  def change
 
+
+  end
+end
+```
+
+
+<div class="question">
+  Définissez une classe de modèle pour chaque table de votre base de données.
+  Ajoutez les associations entre modèles.
+</div>
+
+<div class="answer big"></div>
+
+
+<div class="question">
+  Compléter le code suivant en utilisant les bonnes méthodes Active Record.
+</div>
+
+```ruby
+#1. Ajoutez votre auteur favori ds la base de données
 
 
 #2. Aller chercher tous les auteurs de la BDD
 
 
-
 #3. Trouver l'auteur ayant l'id 8
-  
-  
-  
-end
-```
 
-<div style="page-break-after:always;"></div>
+
+# The end
+```
 
 
 <div class="question">
-    <ol>
-      <li>Quelle brique d'ActiveRecord permet d'éviter de corrompre sa base (données non désirées) ?</li>
-      <li>Quelle ligne faut-il ajouter au modèle Author pour que les noms d'auteur soient uniques ?</li>
-    </ol>
+  Ajoutez des validations de votre choix à la classe de modèle `Author`.
 </div>
 
 <div class="answer big">
-  <ol>
-    <li></li>
-    <li></li>
-  </ol>
+
 </div>
-
-
-<div class="question">
-    <ol>
-      <li>Quelle brique d'ActiveRecord traduit les relations entre les tables ?</li>
-      <li>Ajouter les bonnes lignes au 2 modèles pour traduire leur relation one-to-many</li>
-    </ol>
-</div>
-
-<div class="answer">
-  <ol>
-    <li></li>
-  </ol>
-</div>
-
-```ruby
-class Book < ActiveRecord::Base
-  
-end
-class Author < ActiveRecord::Base
-  
-end
-```
-
-
-<div class="question">
-    <ol>
-      <li>Souvenez-vous de SQL... Quels nouveaux "pouvoirs" ces associations vous donnent-elles (question un peu niaiseuse..)? Compléter le code pour exercer ces nouveaux pouvoirs..</li>
-    </ol>
-</div>
-
-
-<div class="answer">
-  <ol>
-    <li></li>
-  </ol>
-</div>
-
-```ruby
-manchette = Author.find_by_name("Jean-Patrick Manchette")
-# Trouver les livres dispos de Manchette ?
-
-
-# Ajouter "Le petit bleu de la cote ouest",un titre qui manque à notre lamentable BDD
-
-
-# [OPTIONNEL] Trouver les bouquins de manchette édités avant 1980
-
-
-# [OPTIONNEL] Trouver les auteurs de polar
-
-
-
-# THE END
-
-```
-
-<div style="page-break-after:always;"></div>
-
-
-
-

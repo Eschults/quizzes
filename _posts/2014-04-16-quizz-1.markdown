@@ -59,9 +59,6 @@ grades = [19, 8, 11, 15, 13]
 
 
 
-
-
-
 # Store the result in a variable `average`
 ```
 
@@ -72,25 +69,37 @@ grades = [19, 8, 11, 15, 13]
 <div class="answer"></div>
 
 <div class="question">
-  Définissez une méthode <code>capitalize</code> qui prend une <code>String</code>
-  en argument et <strong>retourne</strong> cette chaîne de caractère en ayant mis la première
-  lettre en majuscules.
+  Définissez une méthode <code>capitalize_name</code> qui prend un prénom et un nom
+  en arguments et retourne le nom complet bien formaté (nom et prénom avec première lettre
+  en majuscules).
 </div>
 
 ```ruby
-# TODO: define the `capitalize` method.
+# TODO: define the `capitalize_name` method.
 
 
 
 
-
-
-
-
-# capitalize("boris")
-# => "Boris"
+# capitalize_name("boris", "paillard")
+# => "Boris Paillard"
 ```
 
+<div class="question">
+  Définissez une méthode <code>build_array</code> qui crée un tableau,
+  lui ajoute 3 éléments de ton choix (nombre, étudiants, fruits, ...),
+  et le <strong>retourne</strong>.
+  Appellez cette méthode et <strong>affiche</strong> le deuxième élément du tableau retourné.
+</div>
+
+```ruby
+# TODO: define the `build_array` method
+
+
+
+
+
+#
+```
 
 <div class="question">
   Parlons de <code>String</code>. Qu'est-ce que la concaténation ? Donnez un exemple.
@@ -103,4 +112,3 @@ grades = [19, 8, 11, 15, 13]
 </div>
 
 <div class="answer"></div>
-
