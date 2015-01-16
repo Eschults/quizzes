@@ -1,0 +1,106 @@
+---
+layout: post
+title:  "Quizz"
+---
+
+<div class="question">
+  What is a variable? Why do we use them? Give an example.
+</div>
+<div class="answer"></div>
+
+<div class="question">
+  Please describe this line of code, try to be as precise as you could.
+</div>
+
+```ruby
+age = 18
+```
+<div class="answer"></div>
+
+<div class="question">
+  What is a method? Why do we use them?
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  Describe what is happening on <strong>each line</strong>. Try to use the proper words -  be specific.
+</div>
+
+```ruby
+def multiply(x, y)
+  x * y
+end
+
+puts multiply(5, 8)
+```
+
+<div class="answer big"></div>
+
+<div class="question">
+  What does the keyword <code>if</code> does? Give an example using a variable <code>age</code> storing a student' age.
+</div>
+
+<div class="answer big"></div>
+
+<div style="page-break-after:always;"></div>
+
+<div class="question">
+  What does the keyword <code>for</code> does ? Complete the code below to compute the average of the grades (you can use an enumerator if you want).
+</div>
+
+```ruby
+grades = [19, 8, 11, 15, 13]
+
+
+
+
+# Store the result in a variable `average`
+```
+
+<div class="question">
+  What's the best way to <strong>iterate</strong> (or <strong>enumerate</strong>) an array in Ruby?
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  Define a <code>capitalize_name</code> method that takes a name and a first name as parameters and returns the complete name well formatted (name and first name with the first letter capitalized).
+</div>
+
+```ruby
+# TODO: define the `capitalize_name` method.
+
+
+
+
+# capitalize_name("boris", "paillard")
+# => "Boris Paillard"
+```
+
+<div class="question">
+  Define a <code>build_array</code> method that creates an array, add 3 elements (of your choice) to it and <strong>returns</strong> it.
+  Call that method and <strong>output</strong> the second element of the returned array.
+</div>
+
+```ruby
+# TODO: define the `build_array` method
+
+
+
+
+
+#
+```
+
+<div class="question">
+  Parlons de <code>String</code>. Qu'est-ce que la concaténation ? Donnez un exemple.
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  What is interpolation? Give an example.
+</div>
+
+<div class="answer"></div>
