@@ -1,0 +1,107 @@
+---
+layout: post
+title:  "Quizz"
+---
+
+<div class="question">
+  What's a variable? What's the point of using variables? Give an example.
+</div>
+<div class="answer"></div>
+
+<div class="question">
+  Precisely describe the following line of code <strong>using the correct vocabulary</strong>
+</div>
+
+```ruby
+age = 18
+```
+<div class="answer"></div>
+
+<div class="question">
+  What's a method? What's the point of defining methods?
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  Precisely describe what happens at <strong>each line</strong> using the good vocabulary.
+</div>
+
+```ruby
+def multiply(x, y)
+  x * y
+end
+
+puts multiply(5, 8)
+```
+
+<div class="answer big"></div>
+
+<div class="question">
+  What's the keyword <code>if</code>? Give us an example of <code>if</code> statements, using an <code>age</code> variable storing a student's age for instance.
+</div>
+
+<div class="answer big"></div>
+
+<div style="page-break-after:always;"></div>
+
+<div class="question">
+  What's the keyword <code>for</code>? Complete following code to compute the average of students grades (you can use iterators if you want to).
+</div>
+
+```ruby
+grades = [19, 8, 11, 15, 13]
+
+
+
+
+# compute and store the result in a variable `average`
+```
+
+<div class="question">
+  What's the best way of looping on an array in ruby, that we will always prefer to `for` loop?
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  Define a <code>capitalize_name</code> method which takes first name and last name as arguments and return well-formatted fullname (with capitalized first and last names).
+</div>
+
+```ruby
+# TODO: define the `capitalize_name` method.
+
+
+
+
+# capitalize_name("boris", "paillard")
+# => "Boris Paillard"
+```
+
+<div class="question">
+  Define a <code>build_array</code> methods which is just here to create an array, add 3 elements in this array (numbers, student names, fruits, songs...),
+  and <strong>returns</strong> this array.
+  Then <strong>call</strong> your method and <strong>puts</strong> the second element of the returned array.
+</div>
+
+```ruby
+# TODO: define the `build_array` method
+
+
+
+
+
+#
+```
+
+<div class="question">
+  Let's speak of <code>String</code>. What's "concatenation"? Give us an example.
+</div>
+
+<div class="answer"></div>
+
+<div class="question">
+  What's interpolation? Give us an example. Does it work with single-quotes? Do you prefer concatenation or interpolation?
+</div>
+
+<div class="answer"></div>
