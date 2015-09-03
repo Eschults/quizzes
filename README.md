@@ -3,8 +3,6 @@ quizzes
 
 Quizz in PDF :
 
-- [ruby quizz](https://dl.dropboxusercontent.com/u/29947758/lewagon/quizzes/quizz_1.pdf)
-- [OO quizz](https://dl.dropboxusercontent.com/u/29947758/lewagon/quizzes/quizz_2.pdf)
-- [DB / AR](https://dl.dropboxusercontent.com/u/29947758/lewagon/quizzes/quizz_3.pdf)
-
-If you change the content, alert Le Wagon's staff to update PDF links.
+1. ruby: [english](https://github.com/lewagon/quizzes/raw/gh-pages/pdf/1-ruby-english.pdf) or [french](https://github.com/lewagon/quizzes/raw/gh-pages/pdf/1-ruby-french.pdf)
+1. OOP: [english](https://github.com/lewagon/quizzes/raw/gh-pages/pdf/2-oop-english.pdf) or [french](https://github.com/lewagon/quizzes/raw/gh-pages/pdf/2-oop-french.pdf)
+1. DB/ActiveRecord: [english](https://github.com/lewagon/quizzes/raw/gh-pages/pdf/3-db-english.pdf) or [french](https://github.com/lewagon/quizzes/raw/gh-pages/pdf/3-db-french.pdf)
