@@ -1,0 +1,169 @@
+---
+layout: post
+title:  "Quizz #2"
+---
+
+<div class="question">
+  Describe this code line-by-line.
+</div>
+
+```ruby
+first_name = ["Pierre", "Paul", "Jacques"].sample
+last_name = "Paillard"
+puts "Great! #{first_name} #{last_name} is born"
+```
+<div class="answer">
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+</div>
+
+<div class="question">
+  What's a constructor <code>initialize</code>? When is it called and what's its purpose?
+</div>
+<div class="answer">
+
+</div>
+
+<div class="question">
+  Consider this code. What's the difference between <code>string</code> and <code>String</code>?
+</div>
+
+```ruby
+string = String.new("Hello World")
+```
+
+<div class="answer"></div>
+
+<div class="question">
+  What does this method do?
+</div>
+
+```ruby
+def mystery_method(pets)
+  mammal_pets = []
+  for pet in pets
+    mammal_pets << pet if pet.mammal?
+  end
+  return mammal_pets
+end
+```
+
+<div class="answer">
+
+</div>
+
+<div class="question">
+  Re-implement previous method <code>mystery_method</code> using a nice <code>iterator</code> instead.
+</div>
+
+<div class="answer big"></div>
+
+<div style="page-break-after:always;"></div>
+
+<div class="question">
+What's the class of the elements of the `pets` array according to you?
+Implement the class <code>Animal</code> with a constructor and an instance method `mammal?` so that it works with the `mystery_method`.
+</div>
+
+<div class="answer big">
+
+</div>
+
+<div class="question">
+  Write a class <code>Dog</code> which inherits from <code>Animal</code>. What should be its `mammal?` method?
+</div>
+
+<div class="answer big">
+
+</div>
+
+<div class="question">
+  What's special with the <code>overview</code> method? Is it a class method or an instance method? Same question with <code>swim</code>.
+</div>
+
+```ruby
+class Fish
+  def self.overview()
+    return "Fishes can live in the sea"
+  end
+  def swim
+    # I'm swimming
+  end
+end
+```
+
+<div class="answer big"></div>
+
+<div class="question">
+  Please, write some code <strong>calling</strong> both methods <code>overview</code> and <code>swim</code>.
+</div>
+
+<div class="answer">
+</div>
+
+<div style="page-break-after:always;"></div>
+
+<div class="question">
+  Let's define 2 classes, <code>Liquid</code> and <code>Alcohol</code>.
+</div>
+
+```ruby
+class Liquid
+  def drink
+    puts "You drank some liquid"
+  end
+  def evaporate
+    puts "There is no more liquid"
+  end
+end
+
+class Alcohol < Liquid
+  def drink
+    puts "You are now drunk"
+  end
+end
+```
+<p>What is printed line 2 and 3 of the following ruby script?</p>
+```ruby
+beer = Alcohol.new
+beer.drink
+beer.evaporate
+```
+
+<div class="answer">
+  2.<br />
+  3.
+</div>
+
+```ruby
+class Liquid
+  def drink
+    puts "You drank some liquid"
+  end
+  def evaporate
+    puts "There is no more liquid"
+  end
+end
+
+class Alcohol < Liquid
+  def drink
+    super
+    puts "You are now drunk"
+  end
+end
+```
+<p>Same question with this new <code>drink</code> method. What is printed on line 2 and 3.</p>
+```ruby
+beer = Alcohol.new
+beer.drink
+beer.evaporate
+```
+
+<div class="answer">
+  2.<br />
+  3.
+</div>
+

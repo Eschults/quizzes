@@ -4,20 +4,20 @@ title:  "Quizz #3"
 ---
 
 <div class="question">
-  Qu'est ce qu'une base de données relationnelle ?
+  What's a relational database?
 <div>
 
 <div class="answer big"></div>
 
 <div class="question">
-  Quels sont les différents types de relation entre tables que vous connaissez ?
+  What are the different "table relationships" you know?
 <div>
 
 <div class="answer big"></div>
 
 
 <div class="question">
-  Un auteur, défini par son nom, a plusieurs livres. Un livre, défini par son titre et son année de publication, appartient à un auteur. Dessiner le schéma de cette base de données, avec les relations entre les tables.
+  Consider this e-library service. An author, defined by his name have several books. A book, defined by its title and publishing year, has one author only. What's this simple database scheme. Please draw it!
 </div>
 
 <div class="answer big">
@@ -27,7 +27,7 @@ title:  "Quizz #3"
 
 
 <div class="question">
-  Un utilisateur, défini par son email, peut lire plusieurs livre. Un livre peut être lu par plusieurs utilisateur (ebook) On veut aussi garder trace de la date à laquelle un lecteur lit un livre. Reprenez votre schéma ci-dessus et ajoutez les tables et relations supplémentaires.
+  A user, defined by his email, can read several books. A book (e-book!!) can be read by several user. We also want to keep track of reading dates. Improve your e-library DB scheme with relevant tables and relationships.
 </div>
 
 <div class="answer big">
@@ -35,13 +35,13 @@ title:  "Quizz #3"
 </div>
 
 <div class="question">
-  Quel est le langage permettant d'interroger une base de données ?
+  What's the language to make queries to a database?
 </div>
 
 <div class="answer"></div>
 
 <div class="question">
-  Quelle requête simple permet de retrouver les livres écrit avant 1985 ?
+  What's the simple query to get books written before 1985?
 </div>
 
 <div class="answer">
@@ -49,16 +49,14 @@ title:  "Quizz #3"
 </div>
 
 <div class="question">
-  Quelle requête jointe permet de retouver les 3 derniers livres publiés de Jules Vernes
+  What's the simple query to get 3 last books written by Jules Verne?
 </div>
 
 <div class="answer"></div>
 
 
-
-
 <div class="question">
-  À quoi sert ActiveRecord ?
+  What's the purpose of ActiveRecord?
 </div>
 
 <div class="answer">
@@ -66,7 +64,7 @@ title:  "Quizz #3"
 </div>
 
 <div class="question">
-  Qu'est-ce qu'une migration ? Comment l'execute-t-on ?
+  What's a migration? How do you run a migration?
 </div>
 
 <div class="answer">
@@ -74,7 +72,7 @@ title:  "Quizz #3"
 </div>
 
 <div class="question">
-  Compléter les migrations pour notre BDD de e-books
+  Complete migrations to create your e-library database.
 </div>
 
 ```ruby
@@ -109,8 +107,7 @@ end
 <div style="page-break-after:always;"></div>
 
 <div class="question">
-  Ecrire une migration pour ajouter une colonne <code>category</code> à notre table livre.
-  Est-ce la meilleure façon de procéder ?
+  Write a migration to add a column <code>category</code> to the books table.
 </div>
 
 ```ruby
@@ -124,15 +121,15 @@ end
 
 
 <div class="question">
-  Définissez une classe de modèle pour chaque table de votre base de données.
-  Ajoutez les associations entre modèles.
+  Define an ActiveRecord model for each table of your DB.
+  Add the ActiveRecord associations between models.
 </div>
 
 <div class="answer big"></div>
 
 
 <div class="question">
-  Compléter le code suivant en utilisant les bonnes méthodes Active Record.
+  Complete following code using the relevant ActiveRecord methods.
 </div>
 
 ```ruby
@@ -156,9 +153,8 @@ end
 # The end
 ```
 
-
 <div class="question">
-  Ajoutez des validations de votre choix à la classe de modèle `Author`.
+  Add validations of your choice to the `Author` class. Can we save an object in DB if its validations do not pass?
 </div>
 
 <div class="answer big">
