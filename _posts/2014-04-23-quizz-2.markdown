@@ -38,7 +38,7 @@ string = String.new("Hello World")
 <div class="answer"></div>
 
 <div class="question">
-  Que fait la méthode suivante?
+  Que fait la méthode suivante ?
 </div>
 
 ```ruby
@@ -64,7 +64,7 @@ end
 <div style="page-break-after:always;"></div>
 
 <div class="question">
-Dans la question 3, quel peut être le type de <code>pets</code>? Écrivez une classe <code>Animal</code>
+Dans la question 4, quel peut être le type de <code>pets</code> ? Écrivez une classe <code>Animal</code>
 tel qu'un tableau d'instances de <code>Animal</code> passé à <code>mystery_method</code> renvoie un
 tableau vide.
 </div>
@@ -84,7 +84,7 @@ tableau vide.
 
 <div class="question">
   Soit la classe suivante. Comment appelle-t-on la "famille" de la méthode <code>overview</code>
-  dans la classe ci-dessous. Même question avec <code>catch_fish</code>.
+  dans la classe ci-dessous ? Même question avec <code>catch_fish</code>.
 </div>
 
 ```ruby
@@ -111,7 +111,7 @@ end
 <div style="page-break-after:always;"></div>
 
 <div class="question">
-  Let's define 2 classes, <code>Liquid</code> and <code>Alcohol</code>.
+  Définissons deux classes, <code>Liquid</code> et <code>Alcohol</code>.
 </div>
 
 ```ruby
@@ -130,7 +130,7 @@ class Alcohol < Liquid
   end
 end
 ```
-<p>What is printed line  and 3 of the following ruby script?</p>
+<p>Qu'est-ce qui est affiché par les deux dernières lignes du script suivant ?</p>
 ```ruby
 beer = Alcohol.new
 beer.drink
@@ -143,7 +143,7 @@ beer.evaporate
 </div>
 
 <div class="question">
-  À quoi sert <code>super</code>?
+  À quoi sert <code>super</code> ?
 </div>
 
 <div class="answer"></div>

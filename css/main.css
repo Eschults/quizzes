@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 12px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -60,10 +60,10 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 110%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 1em auto 2em;
   line-height: 1.5em;
 }
 
@@ -175,13 +175,13 @@ body { counter-reset: question; }
 
 .answer {
   border: 2px dotted #777;
-  height: 3.5em;
+  height: 4.5em;
   margin-top: 0.4em;
   margin-bottom: 1.4em;
 }
 
 .answer.big {
-  height: 8em;
+  height: 6em;
 }
 
 .answer.bigger {
