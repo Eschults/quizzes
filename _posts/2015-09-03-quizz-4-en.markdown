@@ -27,23 +27,44 @@ $
 
 <div class="question">
   How do you generate a <code>Song</code> model with a <code>title</code> and a <code>year</code>?
-  <p><i>Tell us the 2 files created and the <strong>rake</strong> command you should type then.</i></p>
 <div>
 
 <pre>
 $
 </pre>
+
+<p>Tell us the 2 files created</p>
+
 <div class="answer big"></div>
+
+<p>
+  What is the <strong>rake</strong> command you should type then?
+</p>
+
+<pre>
+$
+</pre>
 
 <div class="question">
-  How do you add a <code>category</code> (ex: <code>"rock"</code>, <code>"electro"</code>, etc..) to your model using the correct Rails generator?
-  <p><i>Again, what is the file created and the <strong>rake</strong> command you need to type again?</i></p>
+  How do you add a <code>category</code> (ex: <code>"rock"</code>, <code>"electro"</code>, etc..) to your songs table using the correct Rails generator?
 <div>
 
 <pre>
 $
 </pre>
+
+<p>Tell us the file created</p>
+
 <div class="answer big"></div>
+
+<p>
+  What is the <strong>rake</strong> command you should type again?
+</p>
+
+<pre>
+$
+</pre>
+
 
 
 <div class="question">
