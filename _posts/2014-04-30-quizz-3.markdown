@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quizz #3"
+title:  "Quizz #3: DB & ActiveRecord"
 ---
 
 <div class="question">

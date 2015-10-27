@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quizz #2"
+title:  "Quizz #2: OOP"
 ---
 
 <div class="question">
