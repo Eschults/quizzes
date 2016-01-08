@@ -30,9 +30,8 @@ age = 18
 
 ```ruby
 def multiply(x, y)
-  x * y
+  return x * y
 end
-
 puts multiply(5, 8)
 ```
 
@@ -55,7 +54,6 @@ puts multiply(5, 8)
 
 ```ruby
 grades = [19, 8, 11, 15, 13]
-
 
 
 
@@ -88,12 +86,11 @@ grades = [19, 8, 11, 15, 13]
   Définissez une méthode <code>build_array</code> qui crée un tableau,
   lui ajoute 3 éléments de ton choix (nombre, étudiants, fruits, ...),
   et le <strong>retourne</strong>.
-  Appellez cette méthode et <strong>affiche</strong> le deuxième élément du tableau retourné.
+  Appellez cette méthode et <strong>affichez</strong> le deuxième élément du tableau retourné.
 </div>
 
 ```ruby
 # TODO: define the `build_array` method
-
 
 
 
