@@ -33,9 +33,9 @@ $
 $
 </pre>
 
-<p>Tell us the 2 files created</p>
+<p>What are the 2 created files?</p>
 
-<div class="answer big"></div>
+<div class="answer"></div>
 
 <p>
   What is the <strong>rake</strong> command you should type then?
@@ -53,9 +53,9 @@ $
 $
 </pre>
 
-<p>Tell us the file created</p>
+<p>What is the created file?</p>
 
-<div class="answer big"></div>
+<div class="answer"></div>
 
 <p>
   What is the <strong>rake</strong> command you should type again?
@@ -264,9 +264,6 @@ class SongsController < ApplicationController
 
 
 
-
-
-
 end
 </pre>
 
@@ -447,7 +444,6 @@ class ReviewsController < ApplicationController
 
 
 
-
   end
 
   private
@@ -470,8 +466,6 @@ Add a song's reviews on its show page:
 &lt;p&gt;&lt;%= @song.category %&gt;&lt;/p&gt;
 
 &lt;h2&gt;Here are the reviews for this song;&lt;/h2&gt;
-
-
 
 
 
