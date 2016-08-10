@@ -16,7 +16,7 @@ git push origin master
 To debug locally, run:
 
 ```bash
-HTML_DEBUG=true bin/jekyll serve --watch --drafts --trace
+HTML_DEBUG=true bin/jekyll serve --watch --trace
 ```
 
 And then open [localhost:4000](http://localhost:4000)
