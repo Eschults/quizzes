@@ -1,4 +1,4 @@
 safe: true
 highlighter: true
 lsi: false
-markdown: redcarpet
+markdown: kramdown
