@@ -1,1 +1,12 @@
+destination: pdf
+permalink: none
 markdown: kramdown
+exclude:
+  - bin
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+kramdown:
+  input: 'GFM'
+  hard_wrap: false

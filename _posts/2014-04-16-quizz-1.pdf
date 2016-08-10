@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Quizz #1: ruby"
+title:  "🇫🇷 Quizz #1: Ruby"
 ---
+
+<h2>Quizz 1 - Ruby</h2>
 
 <div class="question">
   Qu'est-ce qu'une variable ? À quoi servent-elles ? Donner un exemple.
@@ -15,6 +17,7 @@ title:  "Quizz #1: ruby"
 ```ruby
 age = 18
 ```
+
 <div class="answer"></div>
 
 <div class="question">

@@ -1,14 +1,19 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<!-- <p class="meta">{{ page.date | date_to_string }}</p> -->
-
-<div class="post">
-  <div class="right">
-    <div style="border: 1px solid #ddd; height: 2.5em; width: 200px; margin-top: -3.5em; color: #777; padding: 3px">
-      Name
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <div class="site">
+    <div class="post">
+      <div class="right" style="margin-top: 36px;">
+        <div style="border: 1px solid #ddd; height: 2.5em; width: 200px; margin-top: -3.5em; color: #777; padding: 3px">
+          Name
+        </div>
+      </div>
+{{ content }}
     </div>
   </div>
-{{ content }}
-</div>
+</body>
+</html>
