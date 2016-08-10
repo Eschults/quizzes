@@ -1,4 +1,1 @@
-safe: true
-highlighter: true
-lsi: false
 markdown: kramdown
