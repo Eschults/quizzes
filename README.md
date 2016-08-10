@@ -1,5 +1,9 @@
 # Quizzes @ [Le Wagon](https://www.lewagon.com)
 
+You can dowload all PDFs [here](pdf)
+
+## Contribution
+
 To re-generate the quizzes:
 
 ```bash
