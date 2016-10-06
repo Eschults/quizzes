@@ -188,6 +188,15 @@ body { counter-reset: question; }
   height: 12em;
 }
 
+.highlight table {
+  width: 100%;
+}
+
+.highlight table .gutter {
+  width: 2em;
+}
+
 .highlight pre {
+  line-height: 1.6em;
   margin-bottom: 1em;
 }

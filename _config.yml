@@ -10,3 +10,5 @@ exclude:
 kramdown:
   input: 'GFM'
   hard_wrap: false
+  syntax_highlighter_opts:
+    line_numbers: :inline

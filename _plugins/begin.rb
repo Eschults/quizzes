@@ -19,17 +19,16 @@ module Jekyll
     HTML_DEBUG = ENV['HTML_DEBUG'] == 'true'
 
     def matches(ext)
-      ext =~ /\.pdf$/i
+      return nil if HTML_DEBUG
+      ext =~ /\.markdown$/i
     end
 
     def output_ext(ext)
-      HTML_DEBUG ? ".html" : ".pdf"
+      ".pdf"
     end
 
     def convert(content)
       content = content_with_layout(content)
-      return content if HTML_DEBUG
-
       styled_kit(content).to_pdf
     end
 
@@ -37,8 +36,6 @@ module Jekyll
 
     def content_with_layout(content)
       content = Jekyll::Converters::Markdown::KramdownParser.new(@config).convert(content)
-      return content if HTML_DEBUG
-
       File.read("_layouts/post.html").
         gsub("{{ content }}", content)
     end
