@@ -45,7 +45,15 @@ puts multiply(5, 8)
   une variable <code>age</code> stockant l'âge d'un élève.
 </div>
 
-<div class="answer big"></div>
+```ruby
+# TODO: write some code with `if`
+age =
+
+
+
+
+
+```
 
 <div style="page-break-after:always;"></div>
 
@@ -53,14 +61,18 @@ puts multiply(5, 8)
   À quoi sert le mot-clé <code>for</code> ? Complétez le code ci-dessous
   pour calculer la moyenne des notes d'une classe (vous pouvez utiliser un
   énumérateur si vous le souhaitez).
+  Complétez le code suivant pour obtenir la moyenne <strong>exacte</strong> des notes d'un élève. Utiliser le mot-clé `for`
 </div>
 
 ```ruby
 grades = [19, 8, 11, 15, 13]
+# TODO: compute and store the result in a variable `average` (Float)
+
+for
 
 
 
-# Store the result in a variable `average`
+
 ```
 
 <div class="question">
@@ -71,7 +83,7 @@ grades = [19, 8, 11, 15, 13]
 
 <div class="question">
   Définissez une méthode <code>capitalize_name</code> qui prend un prénom et un nom
-  en arguments et retourne le nom complet bien formaté (nom et prénom avec première lettre
+  en paramètres et retourne le nom complet bien formaté (nom et prénom avec première lettre
   en majuscules).
 </div>
 
@@ -81,24 +93,7 @@ grades = [19, 8, 11, 15, 13]
 
 
 
-# capitalize_name("boris", "paillard")
-# => "Boris Paillard"
-```
 
-<div class="question">
-  Définissez une méthode <code>build_array</code> qui crée un tableau,
-  lui ajoute 3 éléments de ton choix (nombre, étudiants, fruits, ...),
-  et le <strong>retourne</strong>.
-  Appellez cette méthode et <strong>affichez</strong> le deuxième élément du tableau retourné.
-</div>
-
-```ruby
-# TODO: define the `build_array` method
-
-
-
-
-#
 ```
 
 <div class="question">
@@ -112,3 +107,17 @@ grades = [19, 8, 11, 15, 13]
 </div>
 
 <div class="answer"></div>
+
+<div class="question">
+  Utilisez l'itérateur <code>map</code> pour convertir la variable <code>students</code> (un tableau de tableaux) en un tableau de `Hash`. Ces hashs devraient avoir deux clés, <code>:name</code> et <code>:age</code>.
+</div>
+
+```ruby
+students = [ [ "john", 28 ], [ "mary", 25 ], [ "paul", 21 ] ]
+
+
+
+
+
+
+```
