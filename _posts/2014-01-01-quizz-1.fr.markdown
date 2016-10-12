@@ -8,7 +8,7 @@ title:  "🇫🇷 Quizz #1: Ruby"
 <div class="question">
   Qu'est-ce qu'une variable ? À quoi servent-elles ? Donner un exemple.
 </div>
-<div class="answer"></div>
+<div class="big answer"></div>
 
 <div class="question">
   Décrivez précisément la ligne de code suivante en utilisant le bon vocabulaire.
@@ -18,13 +18,13 @@ title:  "🇫🇷 Quizz #1: Ruby"
 age = 18
 ```
 
-<div class="answer"></div>
+<div class="big answer"></div>
 
 <div class="question">
   Qu'est-ce qu'une méthode ? À quoi servent-elles ?
 </div>
 
-<div class="answer"></div>
+<div class="big answer"></div>
 
 <div class="question">
   Décrivez précisément ce qu'il se passe à <strong>chaque ligne</strong> avec
