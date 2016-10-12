@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🇬🇧 Quizz #1: Ruby"
+title:  "Quizz #1: Ruby"
 ---
 
 <h2>Quizz 1 - Ruby</h2>

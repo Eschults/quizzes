@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "🇬🇧 Quizz #3: DB & ActiveRecord"
+title:  "Quizz #3: DB & ActiveRecord"
 ---
+
+<h2>Quizz 4 - DB & ActiveRecord</h2>
 
 <div class="question">
   What's a relational database?
