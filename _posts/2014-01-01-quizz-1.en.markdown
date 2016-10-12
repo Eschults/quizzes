@@ -8,7 +8,7 @@ title:  "🇬🇧 Quizz #1: Ruby"
 <div class="question">
   What's a variable? What's the point of using variables? Give an example.
 </div>
-<div class="answer"></div>
+<div class="big answer"></div>
 
 <div class="question">
   Precisely describe the following line of code <strong>using the correct vocabulary</strong>
@@ -17,13 +17,13 @@ title:  "🇬🇧 Quizz #1: Ruby"
 ```ruby
 age = 18
 ```
-<div class="answer"></div>
+<div class="big answer"></div>
 
 <div class="question">
   What's a method? What's the point of defining methods?
 </div>
 
-<div class="answer"></div>
+<div class="big answer"></div>
 
 <div class="question">
   Precisely describe what happens at <strong>each line</strong> using the good vocabulary.

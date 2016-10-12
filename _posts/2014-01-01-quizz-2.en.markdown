@@ -3,6 +3,8 @@ layout: post
 title:  "🇬🇧 Quizz #2: OOP"
 ---
 
+<h2>Quizz 2 - OOP</h2>
+
 <div class="question">
   Describe this code line-by-line.
 </div>
@@ -21,9 +23,9 @@ puts "Great! #{first_name} #{last_name} is born"
 </div>
 
 <div class="question">
-  What's a constructor <code>initialize</code>? When is it called and what's its purpose?
+  What's <code>initialize</code>? When is it called and what's its purpose?
 </div>
-<div class="answer">
+<div class="big answer">
 
 </div>
 
@@ -59,29 +61,46 @@ end
   Re-implement previous method <code>mystery_method</code> using a nice <code>iterator</code> instead.
 </div>
 
-<div class="answer big"></div>
+```ruby
+pets = [ MysteryObject.new("mouse"), MysteryObject.new("hummingbird") ]
+
+
+
+
+
+```
 
 <div style="page-break-after:always;"></div>
 
 <div class="question">
-What's the class of the elements of the `pets` array according to you?
-Implement the class <code>Animal</code> with a constructor and an instance method `mammal?` so that it works with the `mystery_method`.
+Write an <code>Animal</code> class that could be use in place of the <code>MysteryObject</code> at Q5. Implement
+a <code>mammal?</code> instance method that would work with the code at Q4.
 </div>
 
-<div class="answer big">
+```ruby
+class
 
-</div>
+
+
+
+
+```
 
 <div class="question">
-  Write a class <code>Dog</code> which inherits from <code>Animal</code>. What should be its `mammal?` method?
+  Write a class <code>Dog</code> which inherits from <code>Animal</code>. How <code>mammal?</code> should be overriden?
 </div>
 
-<div class="answer big">
+```ruby
+class
 
-</div>
+
+
+
+
+```
 
 <div class="question">
-  What's special with the <code>overview</code> method? Is it a class method or an instance method? Same question with <code>swim</code>.
+  Consider this code
 </div>
 
 ```ruby
@@ -95,16 +114,14 @@ class Fish
 end
 ```
 
-<div class="answer big"></div>
+<p>Please, write some code <strong>calling</strong> both methods <code>overview</code> and <code>swim</code>.</p>
 
-<div class="question">
-  Please, write some code <strong>calling</strong> both methods <code>overview</code> and <code>swim</code>.
-</div>
 
-<div class="answer">
-</div>
+```ruby
+# TODO: use overview and swim
 
-<div style="page-break-after:always;"></div>
+
+````
 
 <div class="question">
   Let's define 2 classes, <code>Liquid</code> and <code>Alcohol</code>.
@@ -126,7 +143,9 @@ class Alcohol < Liquid
   end
 end
 ```
+
 <p>What is printed line 2 and 3 of the following ruby script?</p>
+
 ```ruby
 beer = Alcohol.new
 beer.drink
