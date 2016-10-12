@@ -144,6 +144,8 @@ class Alcohol < Liquid
 end
 ```
 
+<div style="page-break-after:always;"></div>
+
 <p>What is printed line 2 and 3 of the following ruby script?</p>
 
 ```ruby

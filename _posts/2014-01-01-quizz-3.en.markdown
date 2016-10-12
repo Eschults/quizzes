@@ -3,17 +3,17 @@ layout: post
 title:  "Quizz #3: DB & ActiveRecord"
 ---
 
-<h2>Quizz 4 - DB & ActiveRecord</h2>
+<h2>Quizz 3 - DB & ActiveRecord</h2>
 
 <div class="question">
   What's a relational database?
-<div>
+</div>
 
 <div class="answer big"></div>
 
 <div class="question">
   What are the different "table relationships" you know?
-<div>
+</div>
 
 <div class="answer big"></div>
 
@@ -57,6 +57,8 @@ title:  "Quizz #3: DB & ActiveRecord"
 <div class="answer"></div>
 
 
+<div style="page-break-after:always;"></div>
+
 <div class="question">
   What's the purpose of ActiveRecord?
 </div>
@@ -78,7 +80,7 @@ title:  "Quizz #3: DB & ActiveRecord"
 </div>
 
 ```ruby
-class CreateBooks < ActiveRecord::Migration
+class CreateBooks < ActiveRecord::Migration[5.0]
   def up
     create_table :books do |t|
 
@@ -89,9 +91,8 @@ end
 ```
 
 ```ruby
-class CreateAuthors < ActiveRecord::Migration
+class CreateAuthors < ActiveRecord::Migration[5.0]
   def change
-
 
 
   end
@@ -99,21 +100,20 @@ end
 ```
 
 ```ruby
-class CreateUsers < ActiveRecord::Migration
+class CreateUsers < ActiveRecord::Migration[5.0]
   def change
 
 
   end
 end
 ```
-<div style="page-break-after:always;"></div>
 
 <div class="question">
   Write a migration to add a column <code>category</code> to the books table.
 </div>
 
 ```ruby
-class AddCategoryToBook < ActiveRecord::Migration
+class AddCategoryToBook < ActiveRecord::Migration[5.0]
   def change
 
 
@@ -121,13 +121,26 @@ class AddCategoryToBook < ActiveRecord::Migration
 end
 ```
 
+<div style="page-break-after:always;"></div>
 
 <div class="question">
   Define an ActiveRecord model for each table of your DB.
   Add the ActiveRecord associations between models.
 </div>
 
-<div class="answer big"></div>
+```ruby
+class
+
+
+
+```
+
+```ruby
+class
+
+
+
+```
 
 
 <div class="question">
@@ -156,7 +169,7 @@ end
 ```
 
 <div class="question">
-  Add validations of your choice to the `Author` class. Can we save an object in DB if its validations do not pass?
+  Add validations of your choice to the <code>Author</code> class. Can we save an object in DB if its validations do not pass?
 </div>
 
 <div class="answer big">
