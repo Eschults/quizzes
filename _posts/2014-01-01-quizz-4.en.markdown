@@ -15,7 +15,7 @@ title:  "Quizz #4: Rails"
 
 
 <div class="question">
-  How do you start coding a Rails project?
+  How do you start coding a Rails project? Give the right sequence.
   <ol>
     <li>Coding the views?</li>
     <li>Coding the controllers?</li>
@@ -110,7 +110,7 @@ pry>
 
 
 <div class="question">
-  What are the <strong>4 different parts</strong> inside a HTTP request?
+  What are the <strong>4 different parts</strong> inside an HTTP request?
 </div>
 
 <div class="answer big">
@@ -124,12 +124,12 @@ pry>
 
 
 <div class="question">
-  Are these 2 routes the same? Why?
+  Are the HTTP requests in the following 2 routes the same? Why?
 </div>
 
 ```ruby
 # config/routes.rb
-get "/songs" => "songs#show"
+get "/songs" => "songs#index"
 post "/songs" => "songs#create"
 ```
 
@@ -171,7 +171,7 @@ Controller:
 class SongsController < ApplicationController
   def search
     # TODO
-    @song =
+    @songs =
   end
 end
 ```
@@ -199,7 +199,7 @@ Controller:
 class SongsController < ApplicationController
   def search
     # TODO
-    @song =
+    @songs =
   end
 end
 ```
@@ -209,8 +209,10 @@ end
 </div>
 
 ```ruby
-# config/routes.rb # TODO: Give us the details of the 7 routes generated with:
+# config/routes.rb
+# TODO: Give us the details of the 7 routes generated with:
 resources :songs
+# HINT: HTTP-verb "url" => "controller#action"
 
 
 
@@ -266,6 +268,12 @@ class SongsController < ApplicationController
 
   end
   def create
+
+
+
+
+
+
 
   end
 
