@@ -51,7 +51,7 @@ title:  "Quizz #3: DB & ActiveRecord"
 </div>
 
 <div class="question">
-  What's the simple query to get 3 last books written by Jules Verne?
+  What's the simple query to get the 3 most recent books written by Jules Verne?
 </div>
 
 <div class="answer"></div>
@@ -109,7 +109,7 @@ end
 ```
 
 <div class="question">
-  Write a migration to add a column <code>category</code> to the books table.
+  Write a migration to add a <code>category</code> column  to the <code>books</code> table.
 </div>
 
 ```ruby
